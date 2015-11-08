@@ -1,0 +1,21 @@
+{
+    "ecmaFeatures": {
+        "blockBindings": true,
+        "forOf": true,
+        "jsx": true
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "var1": true,
+        "var2": false
+    },
+    "rules": {
+        "eqeqeq": 0,
+        "curly": 2,
+        "quotes": [2, "double"]
+    }
+}
+
