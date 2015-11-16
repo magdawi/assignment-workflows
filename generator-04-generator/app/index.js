@@ -8,7 +8,7 @@ module.exports = generators.Base.extend({
     generators.Base.apply(this, arguments)
   },
   initializing() {
-    // this.destinationRoot('tmp')
+    this.destinationRoot('new_project')
   },
   prompting() {
     const done = this.async()
